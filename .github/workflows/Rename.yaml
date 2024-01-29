@@ -1,0 +1,19 @@
+name: Convert Base64 to UTF-8 and Rename
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'  # 每30分钟运行一次
+
+jobs:
+  convert_and_rename:
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Checkout Repository Contents
+        uses: actions/checkout@v4
+
+      - name: Convert and Rename File
+        run: |
+          base64 -d main/countries/us/mixed > main/countries/us/mixedu  # 解码base64文件并将结果保存到新文件mixedu
+          iconv -f BASE64 -t UTF-8 -o main/countries/us/mixedu main/countries/us/mixedu  # 将解码后的文件从BASE64编码转换为UTF-8编码
+        shell: bash
