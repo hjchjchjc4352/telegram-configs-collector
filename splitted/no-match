@@ -1,0 +1,23 @@
+#Non-Adaptive Configurations
+ss://aes-256-gcm:7ebafc73-69f6-4d8a-b3f9-790726788d2f@nl-full.privateip.net:8443#SHADOWSOCKS
+ss://aes-256-gcm:1a45f826-421f-4378-9deb-2106a0daca39@de2-full.privateip.net:8443#SHADOWSOCKS
+ss://aes-256-gcm:ed6a3fce-ba99-4d4b-b08c-e78be9e340f5@fr-full.privateip.net:8443#SHADOWSOCKS
+ss://aes-256-gcm:6a6f08de-41f1-464b-a6d0-413e3ba45dff@ca2-full.privateip.net:8443#SHADOWSOCKS
+ss://aes-256-gcm:31d1af85-1419-4ff6-8b18-c26d5a316ce4@fr2-full.privateip.net:8443#SHADOWSOCKS
+ss://aes-256-gcm:d144f1a0-156d-4b1a-b7cb-00ff4dee79e8@it-full.privateip.net:8443#SHADOWSOCKS
+ss://aes-256-gcm:6ae425cc-dc1f-4625-bcef-257020beb64c@sg2-full.privateip.net:8443#SHADOWSOCKS
+ss://aes-256-gcm:6c2515f6-106b-4003-981d-a7fa21bc4019@au2-full.privateip.net:8443#SHADOWSOCKS
+ss://aes-256-gcm:b63fc907-8705-4975-b4ff-ca74e389d4c2@nl2-full.privateip.net:8843#SHADOWSOCKS
+ss://aes-256-gcm:d818a13a-ff5c-46c8-9d6d-eaa1c6fe47f5@uk-full.privateip.net:8443#SHADOWSOCKS
+ss://aes-256-gcm:ec55b3b2-06f7-4234-b3fd-3ca284816293@us2-full.privateip.net:8443#SHADOWSOCKS
+ss://aes-256-gcm:b63fc907-8705-4975-b4ff-ca74e389d4c2@nl2-full.privateip.net:8843#SHADOWSOCKS
+ss://aes-256-gcm:d144f1a0-156d-4b1a-b7cb-00ff4dee79e8@it-full.privateip.net:8443#SHADOWSOCKS
+ss://aes-256-gcm:ed6a3fce-ba99-4d4b-b08c-e78be9e340f5@fr-full.privateip.net:8443#SHADOWSOCKS
+ss://aes-256-gcm:d818a13a-ff5c-46c8-9d6d-eaa1c6fe47f5@uk-full.privateip.net:8443#SHADOWSOCKS
+ss://aes-256-gcm:7ebafc73-69f6-4d8a-b3f9-790726788d2f@nl-full.privateip.net:8443#SHADOWSOCKS
+ss://aes-256-gcm:6ae425cc-dc1f-4625-bcef-257020beb64c@sg2-full.privateip.net:8443#SHADOWSOCKS
+ss://aes-256-gcm:6a6f08de-41f1-464b-a6d0-413e3ba45dff@ca2-full.privateip.net:8443#SHADOWSOCKS
+ss://aes-256-gcm:ec55b3b2-06f7-4234-b3fd-3ca284816293@us2-full.privateip.net:8443#SHADOWSOCKS
+ss://aes-256-gcm:1a45f826-421f-4378-9deb-2106a0daca39@de2-full.privateip.net:8443#SHADOWSOCKS
+ss://aes-256-gcm:6c2515f6-106b-4003-981d-a7fa21bc4019@au2-full.privateip.net:8443#SHADOWSOCKS
+ss://aes-256-gcm:31d1af85-1419-4ff6-8b18-c26d5a316ce4@fr2-full.privateip.net:8443#SHADOWSOCKS
