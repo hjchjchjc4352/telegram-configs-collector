@@ -13,10 +13,10 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Ensure File Exists
-        run: touch main/countries/us/mixedu  # 确保文件存在，如果不存在则创建
+        run: touch telegram-configs-collector/blob/main/countries/us/mixedu  # 确保文件存在，如果不存在则创建
 
       - name: Convert and Rename File
         run: |
-          base64 -d main/countries/us/mixed > main/countries/us/mixedu  # 解码base64文件并将结果保存到新文件mixedu
-          iconv -f BASE64 -t UTF-8 -o main/countries/us/mixedu main/countries/us/mixedu  # 将解码后的文件从BASE64编码转换为UTF-8编码
+          base64 -d telegram-configs-collector/blob/main/countries/us/mixed > telegram-configs-collector/blob/main/countries/us/mixedu  # 解码base64文件并将结果保存到新文件mixedu
+          iconv -f BASE64 -t UTF-8 -o telegram-configs-collector/blob/main/countries/us/mixedu telegram-configs-collector/blob/main/countries/us/mixedu  # 将解码后的文件从BASE64编码转换为UTF-8编码
         shell: bash
