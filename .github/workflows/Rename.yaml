@@ -12,6 +12,9 @@ jobs:
       - name: Checkout Repository Contents
         uses: actions/checkout@v4
 
+      - name: Ensure File Exists
+        run: touch main/countries/us/mixedu  # 确保文件存在，如果不存在则创建
+
       - name: Convert and Rename File
         run: |
           base64 -d main/countries/us/mixed > main/countries/us/mixedu  # 解码base64文件并将结果保存到新文件mixedu
